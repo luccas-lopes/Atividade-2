@@ -6,7 +6,6 @@
 		}
 		
 img {
-  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -32,4 +31,15 @@ aside p {
 
 h1{
 	text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    font-size:12px;
+    margin: 10px;
 }
